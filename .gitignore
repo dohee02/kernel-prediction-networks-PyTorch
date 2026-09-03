@@ -1,0 +1,72 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python environments and packaging artifacts
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Jupyter transient files (keep the actual .ipynb notebooks)
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+client_secret*.json
+service-account*.json
+
+# Datasets
+# The paper trains from large source images and generated burst patches.
+# Keep dataset_specs/ because it contains versioned configuration files.
+/dataset/
+*.npy
+*.npz
+
+# PyTorch model weights and training checkpoints
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+
+# Training artifacts configured in kpn_specs/kpn_config.conf
+# Keep any checkpoint README that documents how to obtain model weights.
+/models/*/checkpoint/*
+!/models/*/checkpoint/README.md
+/models/*/logs/
+/models/*/eval_images/
+
+# Common experiment trackers and generated output directories
+/runs/
+/wandb/
+/lightning_logs/
+/outputs/
+/results/
+events.out.tfevents.*
+*.log
+
+# Preserve the repository's root eval_images/ directory: README.md links to
+# those committed reference images. New experiment images belong under
+# models/<experiment>/eval_images/, which is ignored above.
