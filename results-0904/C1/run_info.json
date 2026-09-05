@@ -1,0 +1,41 @@
+{
+  "phase": "C1",
+  "repository": "https://github.com/dohee02/kernel-prediction-networks-PyTorch.git",
+  "git_ref": "experiment/colab",
+  "commit": "3db888f0057d90d0b55e79a1081bb56959464cf5",
+  "checkpoint": "/content/drive/MyDrive/kpn_models/model_best.pth.tar",
+  "phase_directory": "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000",
+  "all_raw_files_for_scale": [
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0001.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0002.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0003.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0004.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0005.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0006.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0007.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0008.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0009.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0010.npy"
+  ],
+  "selected_raw_files": [
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0001.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0002.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0003.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0004.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0005.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0006.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0007.npy",
+    "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/raw_0008.npy"
+  ],
+  "reference_index_zero_based": 0,
+  "reference_noise_map": "/content/kpn_dataset_cache/extracted_C1_13281008_1788429603000000000/sigma_0001.npy",
+  "input_shape_8hw": [
+    8,
+    480,
+    640
+  ],
+  "phase_global_max": 1383.06689453125,
+  "black_level": 0.0,
+  "noise_map_kind": "std",
+  "normalization": "raw / phase_global_max; noise_std / phase_global_max"
+}
