@@ -64,6 +64,8 @@ service-account*.json
 /lightning_logs/
 /outputs/
 /results/
+/result-*/
+/results-*/
 events.out.tfevents.*
 *.log
 
